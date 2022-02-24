@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Base package for the ESLint sharable config used at Gorrion Software House",
   "main": "index.js",
+  "author": "Gorrion Software House (https://gorrion.io)",
   "workspaces": [
     "packages/**"
   ],
@@ -11,8 +12,21 @@
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\"",
     "publish": "lerna publish"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "eslint",
+    "gorrion",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "validate",
+    "strict",
+    "check",
+    "verify",
+    "enforce",
+    "hint"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@gorrion/prettier-config": "^0.0.1",
