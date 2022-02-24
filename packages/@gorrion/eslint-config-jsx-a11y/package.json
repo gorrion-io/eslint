@@ -1,0 +1,42 @@
+{
+  "name": "@gorrion/eslint-config-jsx-a11y",
+  "version": "0.0.1",
+  "description": "A11Y ESLint config used at Gorrion Software House",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gorrion-io/eslint.git"
+  },
+  "scripts": {
+    "lint": "eslint --config ../eslint-config/index.js .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "gorrion",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "validate",
+    "strict",
+    "check",
+    "verify",
+    "enforce",
+    "hint",
+    "react",
+    "jsx",
+    "a11y"
+  ],
+  "author": "Gorrion Software House (https://gorrion.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1"
+  }
+}

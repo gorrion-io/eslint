@@ -1,0 +1,10 @@
+{
+  "pipeline": {
+    "format": {
+      "outputs": []
+    },
+    "lint": {
+      "outputs": []
+    }
+  }
+}

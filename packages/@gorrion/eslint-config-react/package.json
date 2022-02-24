@@ -1,0 +1,50 @@
+{
+  "name": "@gorrion/eslint-config-react",
+  "version": "0.0.1",
+  "description": "React ESLint config used at Gorrion Software House",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gorrion-io/eslint.git"
+  },
+  "scripts": {
+    "lint": "eslint --config ../eslint-config/index.js .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "gorrion",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "validate",
+    "strict",
+    "check",
+    "verify",
+    "enforce",
+    "hint",
+    "react",
+    "hooks"
+  ],
+  "author": "Gorrion Software House (https://gorrion.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^8.9.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "typescript": "^4.5.5"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^8.9.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "typescript": "^4.5.5"
+  },
+  "gitHead": "524f7d47a1b781f9b7e6d8b604c7e90b93e00804"
+}

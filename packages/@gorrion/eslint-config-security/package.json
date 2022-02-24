@@ -1,0 +1,42 @@
+{
+  "name": "@gorrion/eslint-config-security",
+  "version": "0.0.1",
+  "description": "Security ESLint config used at Gorrion Software House",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gorrion-io/eslint.git"
+  },
+  "scripts": {
+    "lint": "eslint --config ../eslint-config/index.js .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "gorrion",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "validate",
+    "strict",
+    "check",
+    "verify",
+    "enforce",
+    "hint",
+    "node",
+    "security"
+  ],
+  "author": "Gorrion Software House (https://gorrion.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-plugin-security": "^1.4.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-plugin-security": "^1.4.0"
+  },
+  "gitHead": "524f7d47a1b781f9b7e6d8b604c7e90b93e00804"
+}
