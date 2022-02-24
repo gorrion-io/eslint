@@ -1,6 +1,6 @@
 {
   "name": "@gorrion/eslint-config-react",
-  "version": "0.0.2-alpha.3",
+  "version": "0.0.2-alpha.4",
   "description": "React ESLint config used at Gorrion Software House",
   "main": "index.js",
   "repository": {
