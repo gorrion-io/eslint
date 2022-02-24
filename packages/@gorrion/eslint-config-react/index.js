@@ -8,7 +8,11 @@ module.exports = {
       jsx: true,
     },
   },
-  extends: ["plugin:react/recommended", "plugin:react-hooks/recommended"],
+  extends: [
+    "plugin:react/jsx-runtime",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+  ],
   plugins: ["react", "react-hooks"],
   overrides: [
     {
@@ -108,7 +112,7 @@ module.exports = {
     "react/prefer-read-only-props": "off",
     "react/prefer-stateless-function": "off",
     "react/prop-types": "off",
-    "react/react-in-jsx-scope": "error",
+    "react/react-in-jsx-scope": "off",
     "react/require-default-props": "off",
     "react/require-optimization": "off",
     "react/require-render-return": "error",
