@@ -1,3 +1,13 @@
+const fs = require("fs");
+const path = require("path");
+
+const tsConfig = fs.existsSync("tsconfig.json")
+  ? path.resolve("tsconfig.json")
+  : fs.existsSync("types/tsconfig.json")
+  ? path.resolve("types/tsconfig.json")
+  : // eslint-disable-next-line no-undefined
+    undefined;
+
 module.exports = {
   env: {
     browser: true,
@@ -252,8 +262,8 @@ module.exports = {
       parser: "@typescript-eslint/parser",
       parserOptions: {
         ecmaVersion: 2018,
-        project: "tsconfig.json",
-        tsconfigRootDir: __dirname,
+        project: tsConfig,
+        sourceType: 'module',
       },
       plugins: ["@typescript-eslint"],
       rules: {
