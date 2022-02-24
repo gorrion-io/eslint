@@ -1,6 +1,6 @@
 {
   "name": "@gorrion/eslint-config-react",
-  "version": "0.0.2-alpha.4",
+  "version": "0.1.0",
   "description": "React ESLint config used at Gorrion Software House",
   "main": "index.js",
   "repository": {
@@ -49,5 +49,5 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "typescript": "^4.5.5"
   },
-  "gitHead": "524f7d47a1b781f9b7e6d8b604c7e90b93e00804"
+  "gitHead": "3c512b5d1eace9557596dda70de6285b6012479f"
 }
