@@ -26,3 +26,7 @@ module.exports = {
   },
 };
 ````
+<!-- prettier-ignore-start -->
+[typescript]: https://github.com/microsoft/TypeScript
+[react]: https://github.com/facebook/react
+<!-- prettier-ignore-end -->
