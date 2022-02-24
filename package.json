@@ -10,7 +10,8 @@
   "scripts": {
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,md}\"",
-    "publish": "lerna publish"
+    "publish:prerelease": "lerna publish --cd-version=prerelease --pre-dist-tag prerelease --exact --yes",
+    "publish:release": "lerna version --conventional-commits --exact --yes && lerna publish from-git --yes"
   },
   "keywords": [
     "eslint",

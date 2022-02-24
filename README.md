@@ -1,4 +1,4 @@
-# @gorrion/eslint
+# @gorrion/eslint-config
 
 ESLint config used at Gorrion Software House
 
@@ -76,6 +76,14 @@ If you want to use `security` config, install the following packages:
 
 ```bash
 npm install --save-dev @gorrion/eslint-config-security eslint-plugin-security
+```
+
+### `@gorrion/eslint-config-jest`
+
+If you want to use `jest` config, install the following packages:
+
+```bash
+npm install --save-dev @gorrion/eslint-config-jest eslint-plugin-jest
 ```
 
 ## LICENSE
