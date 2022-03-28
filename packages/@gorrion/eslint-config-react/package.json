@@ -34,8 +34,8 @@
   "author": "Gorrion Software House (https://gorrion.io)",
   "license": "MIT",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.15.0",
-    "@typescript-eslint/parser": "5.15.0",
+    "@typescript-eslint/eslint-plugin": "5.17.0",
+    "@typescript-eslint/parser": "5.17.0",
     "eslint": "8.11.0",
     "eslint-plugin-react": "7.29.4",
     "eslint-plugin-react-hooks": "4.3.0",
