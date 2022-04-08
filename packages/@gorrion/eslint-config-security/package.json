@@ -1,6 +1,6 @@
 {
   "name": "@gorrion/eslint-config-security",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Security ESLint config used at Gorrion Software House",
   "main": "index.js",
   "repository": {

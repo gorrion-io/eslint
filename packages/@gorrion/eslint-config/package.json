@@ -1,6 +1,6 @@
 {
   "name": "@gorrion/eslint-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Base ESLint config used at Gorrion Software House",
   "repository": {
     "type": "git",
