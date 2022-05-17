@@ -54,14 +54,14 @@ importers:
       '@typescript-eslint/parser': 5.18.0
       eslint: 8.12.0
       eslint-plugin-react: 7.29.4
-      eslint-plugin-react-hooks: 4.4.0
+      eslint-plugin-react-hooks: 4.5.0
       typescript: 4.6.3
     devDependencies:
       '@typescript-eslint/eslint-plugin': 5.18.0_ub64uo67ys72md2n3igb7hrsq4
       '@typescript-eslint/parser': 5.18.0_thk3xo4exzjr5rl6cnexo7v6re
       eslint: 8.12.0
       eslint-plugin-react: 7.29.4_eslint@8.12.0
-      eslint-plugin-react-hooks: 4.4.0_eslint@8.12.0
+      eslint-plugin-react-hooks: 4.5.0_eslint@8.12.0
       typescript: 4.6.3
 
   packages/@gorrion/eslint-config-security:
@@ -2174,8 +2174,8 @@ packages:
       minimatch: 3.1.2
     dev: true
 
-  /eslint-plugin-react-hooks/4.4.0_eslint@8.12.0:
-    resolution: {integrity: sha512-U3RVIfdzJaeKDQKEJbz5p3NW8/L80PCATJAfuojwbaEL+gBjfGdhUcGde+WGUW46Q5sr/NgxevsIiDtNXrvZaQ==}
+  /eslint-plugin-react-hooks/4.5.0_eslint@8.12.0:
+    resolution: {integrity: sha512-8k1gRt7D7h03kd+SAAlzXkQwWK22BnK6GKZG+FJA6BAGy22CFvl8kCIXKpVux0cCxMWDQUPqSok0LKaZ0aOcCw==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
