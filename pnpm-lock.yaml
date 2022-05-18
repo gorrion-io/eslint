@@ -33,11 +33,11 @@ importers:
   packages/@gorrion/eslint-config-jest:
     specifiers:
       eslint: 8.12.0
-      eslint-plugin-jest: 26.1.4
+      eslint-plugin-jest: 26.2.2
       typescript: 4.6.4
     devDependencies:
       eslint: 8.12.0
-      eslint-plugin-jest: 26.1.4_uhoeudlwl7kc47h4kncsfowede
+      eslint-plugin-jest: 26.2.2_uhoeudlwl7kc47h4kncsfowede
       typescript: 4.6.4
 
   packages/@gorrion/eslint-config-jsx-a11y:
@@ -2133,8 +2133,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-jest/26.1.4_uhoeudlwl7kc47h4kncsfowede:
-    resolution: {integrity: sha512-wgqxujmqc2qpvZqMFWCh6Cniqc8lWpapvXt9j/19DmBDqeDaYhJrSRezYR1SKyemvjx+9e9kny/dgRahraHImA==}
+  /eslint-plugin-jest/26.2.2_uhoeudlwl7kc47h4kncsfowede:
+    resolution: {integrity: sha512-etSFZ8VIFX470aA6kTqDPhIq7YWe0tjBcboFNV3WeiC18PJ/AVonGhuTwlmuz2fBkH8FJHA7JQ4k7GsQIj1Gew==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^5.0.0
