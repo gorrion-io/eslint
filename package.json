@@ -33,7 +33,7 @@
     "@gorrion/prettier-config": "0.0.1",
     "lerna": "4.0.0",
     "prettier": "2.6.2",
-    "turbo": "1.2.9"
+    "turbo": "1.9.3"
   },
   "packageManager": "pnpm@7.1.1",
   "prettier": "@gorrion/prettier-config",
