@@ -6,12 +6,12 @@ importers:
     specifiers:
       '@gorrion/prettier-config': 0.0.1
       lerna: 4.0.0
-      prettier: 2.6.2
+      prettier: 2.8.8
       turbo: 1.2.9
     devDependencies:
       '@gorrion/prettier-config': 0.0.1
       lerna: 4.0.0
-      prettier: 2.6.2
+      prettier: 2.8.8
       turbo: 1.2.9
 
   packages/@gorrion/eslint-config:
@@ -4234,8 +4234,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier/2.6.2:
-    resolution: {integrity: sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==}
+  /prettier/2.8.8:
+    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
